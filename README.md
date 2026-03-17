@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%202026-03-16%20193923.png)
+![](./images/Screenshot%202026-03-17%20143251.png)
 
 ### Links
 
