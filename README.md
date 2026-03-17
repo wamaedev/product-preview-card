@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/wamaedev/product-preview-card-component](https://your-solution-url.com)
+- Solution URL: [https://github.com/wamaedev/product-preview-card](https://your-solution-url.com)
 - Live Site URL: [https://jade-moonbeam-552599.netlify.app/](https://your-live-site-url.com)
 
 ## My process
