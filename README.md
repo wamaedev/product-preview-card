@@ -53,42 +53,53 @@ While building this project, I practiced structuring a component using semantic 
 One thing I focused on was creating a clean structure for the product card and separating different elements like the product category, title, description, and pricing.
 
 ```html
-<section class="product-card">
+<main>
+    <article class="product">
 
-  <article class="product-info">
+      <picture class="product__img">
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+        <img src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum">
+      </picture>
+      
+      <div class="product__content">
+        <p class="product__category">PERFUME</p>
 
-    <img src="./images/image-product-desktop.jpg" alt="Gabrielle Chanel perfume bottle">
+        <h1 class="product__title">Gabrielle Essence Eau De Parfum</h1>
 
-    <div class="product-content">
-      <p class="product-category">PERFUME</p>
+        <p class="">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-      <h1 class="product-title">
-        Gabrielle Essence Eau De Parfum
-      </h1>
-
-      <p class="product-description">
-        A floral, solar and voluptuous interpretation composed by
-        Olivier Polge, Perfumer-Creator for the House of CHANEL.
-      </p>
-
-      <div class="price">
-        <span class="current-price">$149.99</span>
-        <span class="old-price">$169.99</span>
+        <div class="flex-group">
+          <p class="product__price">
+            <span class="visually-hidden">Current price:</span>
+            $149.99</p>
+          <p class="product__original-price">
+            <span class="visually-hidden">Original price:</span>
+            <s>$169.99</s>
+          </p>
+        </div>
+      
+        <button class="button" data-icon="shopping-cart">Add to Cart</button>
       </div>
 
-      <button>Add to Cart</button>
-    </div>
-
-  </article>
-
-</section>
+    </article>  
+  </main>
 ```
 ```css
-.product-info {
-  display: flex;
-  gap: 25px;
-  background-color: white;
-  border-radius: 5px;
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw-regular);
+  font-size: 0.875rem;
+  color: var(--cl-neutral-400);
+  background-color: var(--clr-secondary-200);
+  
+  /* for this project only */
+  display: grid;
+  min-height: 100vh;
+  place-content: center;
+  margin: 1rem;
 }
 ```
 This helped me understand how Flexbox simplifies layout alignment and spacing.
@@ -127,6 +138,6 @@ AI was helpful for identifying small improvements and explaining best practices 
 ## Author
 
 - Website - [Presbury Wamae](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/wamaedev)
+- Frontend Mentor - [@wamaedev](https://www.frontendmentor.io/profile/wamaedev)
 - GitHub - [@wamaedev](https://github.com/wamaedev)
 
