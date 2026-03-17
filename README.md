@@ -138,6 +138,6 @@ AI was helpful for identifying small improvements and explaining best practices 
 ## Author
 
 - Website - [Presbury Wamae](https://www.your-site.com)
-- Frontend Mentor - [@wamaedev](https://www.frontendmentor.io/profile/wamaedev)
-- GitHub - [@wamaedev](https://github.com/wamaedev)
+- Frontend Mentor - [https://www.frontendmentor.io/profile/wamaedev](https://www.frontendmentor.io/profile/wamaedev)
+- GitHub - [https://github.com/wamaedev](https://github.com/wamaedev)
 
